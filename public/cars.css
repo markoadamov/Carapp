@@ -1,0 +1,50 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav_bar{
+    background-color: gray;
+    height: 50px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background: gray;
+    width: 80%;
+    height: 200px; /* height given for illustration */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.welcome-message{
+    background: gray;
+    height: 350px;
+}
+
+.single-car-horizontal{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.single-car-width{
+    background-color: brown;
+    height: 50px;
+    width: 80%;
+}
+
+.center-vertical{
+    padding-top: 150px;
+}
